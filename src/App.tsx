@@ -195,9 +195,9 @@ function App() {
                 alt=""
               />
             </div>
-            <div className="flex flex-col gap-4 md:w-120 sm:right-0 top-3 w-full sm:px-20 relative right-8">
-              <div className="flex justify-between border-dotted border-b-1 border-black">
-                <p className="font-bold tracking-[0.25rem] pb-2">
+            <div className="flex flex-col gap-4 md:w-100 sm:right-0 top-3 sm:px-20 md:px-0 sm:left-0 relative md:left-5">
+              <div className="flex justify-between border-dotted border-b-1 border-black ">
+                <p className="font-bold tracking-[0.25rem] pb-2 text-lg">
                   {item.title}
                 </p>
                 <p className="text-[#c59d5f] font-bold tracking-[0.25rem]">
@@ -205,7 +205,7 @@ function App() {
                 </p>
               </div>
               <div className="pt-1">
-                <p className="text-[#617d98] ">{item.description}</p>
+                <p className="text-[#617d98] text-lg">{item.description}</p>
               </div>
             </div>
           </div>
